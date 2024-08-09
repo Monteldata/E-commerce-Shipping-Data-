@@ -10,6 +10,13 @@
 
 This project explores how different shipment modes (Ship, Flight, Road) affect delivery timeliness in an e-commerce dataset. Using SQL, it analyzes patterns to identify which shipping methods are most efficient, providing insights for optimizing logistics and enhancing customer satisfaction.
 
+
+<img width="796" alt="on time delivery sql query" src="https://github.com/user-attachments/assets/6b1ea56d-d6ea-419e-9d62-96924f269f16">
+
+
+
+
+
 ### Data Source 
 
 E-Commerce Shipping Data: The primary Data set used for this analysis is the "Train.csv", file, containing information about the E-commerce shipping orders from Kaggle.com.
