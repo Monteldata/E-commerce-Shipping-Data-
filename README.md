@@ -55,6 +55,9 @@ SELECT Mode_of_Shipment,
 FROM train
 GROUP BY Mode_of_Shipment;
 
+The SQL query is analyzing the delivery performance based on Mode of Shipment and is calculating several metrics related 
+to the timeliness of deliveries. 
+
 
 ### Results Findings
 
