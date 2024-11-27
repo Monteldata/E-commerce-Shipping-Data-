@@ -31,7 +31,7 @@ E-Commerce Shipping Data: The primary Data set used for this analysis is the "Tr
 In the initial data preperation phase, I performed the following taks:
 1. Data loading and inspection
 2. Checking for Missing Data
-3. Ensured consistency in data types across all columns, converting where necessary
+3. Ensured consistency in data types across all columns, converting where necessary eg. Trim, Remove duplicate, Filter
 4. Identifying and Handling Outliers
    
 ### Exploratory Data Analysis
