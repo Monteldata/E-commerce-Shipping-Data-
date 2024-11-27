@@ -12,11 +12,6 @@ This project investigates the impact of various shipment modes (Ship, Flight, Ro
 
 The findings provide actionable insights to optimize logistics, reduce delays, and improve customer satisfaction. This project highlights my ability to clean, analyze, and interpret real-world data to support strategic decision-making
 
-<img width="796" alt="on time delivery sql query" src="https://github.com/user-attachments/assets/6b1ea56d-d6ea-419e-9d62-96924f269f16">
-
-
-
-
 
 ### Data Source 
 
