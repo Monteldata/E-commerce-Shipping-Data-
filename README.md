@@ -43,6 +43,9 @@ Included some SQL queries I deployed
 
 SQL:
 
+![SQL 1](https://github.com/user-attachments/assets/f541bb91-381a-42ca-90cd-24e363157534)
+
+
 SELECT Mode_of_Shipment, 
        SUM(CASE WHEN `Reached.on.Time_Y.N` = 0 THEN 1 ELSE 0 END) AS on_time_deliveries,
        SUM(CASE WHEN `Reached.on.Time_Y.N` = 1 THEN 1 ELSE 0 END) AS late_deliveries,
