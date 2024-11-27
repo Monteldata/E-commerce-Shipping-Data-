@@ -41,18 +41,10 @@ In the initial data preperation phase, I performed the following taks:
 
 Included some SQL queries I deployed
 
-SQL:
+SQL Query for on time delivery rate:
 
 ![SQL 1](https://github.com/user-attachments/assets/f541bb91-381a-42ca-90cd-24e363157534)
 
-
-SELECT Mode_of_Shipment, 
-       SUM(CASE WHEN `Reached.on.Time_Y.N` = 0 THEN 1 ELSE 0 END) AS on_time_deliveries,
-       SUM(CASE WHEN `Reached.on.Time_Y.N` = 1 THEN 1 ELSE 0 END) AS late_deliveries,
-       COUNT(*) AS total_deliveries,
-       (SUM(CASE WHEN `Reached.on.Time_Y.N` = 0 THEN 1 ELSE 0 END) / COUNT(*)) * 100 AS on_time_percentage
-FROM train
-GROUP BY Mode_of_Shipment;
 
 The SQL query is analyzing the delivery performance based on Mode of Shipment and is calculating several metrics related 
 to the timeliness of deliveries. 
